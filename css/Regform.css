@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://www.nastol.com.ua/pic/202004/1920x1080/nastol.com.ua-396686.jpg'); /* Замініть 'path/to/your/image.jpg' на шлях до вашого зображення */
+}
+
+.container {
+    width: 300px; /* Задайте ширину контейнера за вашим власним розсудом */
+    margin: 0 auto; /* Центрує контейнер на сторінці */
+    background-color: rgba(0, 0, 0, 0.5); /* Прозорий фон контейнера */
+    padding: 20px; /* Додатковий внутрішній відступ */
+    border-radius: 10px; /* Закруглення кутів контейнера */
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button.register {
+    margin: 10px auto; /* Відступи зверху та знизу, автоматичний відступ по бокам, центрування */
+    background-color: rgba(192, 192, 192, 0.5); /* Прозорий сірий фон кнопки */
+    color: white; /* Колір тексту */
+    padding: 10px 15px; /* Отступи від країв кнопки */
+    border-radius: 5px; /* Закруглення кутів */
+    border: none; /* Видаляє рамку */
+    transition: background-color 0.2s; /* Плавна зміна кольору фону при наведенні курсору */
+    display: block; /* Зробити кнопку блоковим елементом */
+}
+
+button.back {
+    margin-top: 10px; /* Відступ зверху */
+    margin-left: 0; /* Відступ зліва */
+    background-color: rgba(128, 128, 128, 1); /* Прозорий сірий фон кнопки */
+}
+
+button.login {
+    margin-top: 10px; /* Відступ зверху */
+    margin-left: 10px; /* Відступ зліва */
+    background-color: rgba(21, 175, 80,); /* Прозорий зелений фон кнопки */
+}
+
+button:hover {
+    background-color: rgba(192, 192, 192, 0.7); /* Зміна прозорості сірої кнопки при наведенні */
+}
+
+button.login:hover {
+    background-color: rgba(76, 175, 80, 0.7); /* Зміна прозорості зеленої кнопки "Login" при наведенні */
+}
+
+h1 {
+    text-align: center; /* Розташування надпису REGISTRATION по центру */
+    color: white; /* Колір тексту */
+}
+
+/* Стилі для посилання */
+a {
+    text-decoration: none; /* Забирає підкреслення */
+    display: inline-block; /* Робить посилання блоковим елементом */
+    background-color: rgba(128, 128, 128, 0.2); /* Прозорий фон кнопки */
+    color: white; /* Колір тексту */
+    padding: 10px 20px; /* Отступи від країв кнопки */
+    border-radius: 5px; /* Закруглення кутів */
+    transition: background-color 0.3s; /* Плавна зміна кольору фону при наведенні курсору */
+    margin-right: 5px; /* Відступ справа */
+    margin-top: 10px; /* Відступ зверху */
+
+}
+  
+
+    /* Зміна стилю при наведенні курсору */
+    a:hover {
+        background-color: #0026ff; /* Інший колір фону */
+    }
