@@ -1,1 +1,1 @@
-JustNews presents just the news :)
+JustNews presents just news :)
